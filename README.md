@@ -8,27 +8,10 @@ This website highlights my professional background, technical expertise, project
 
 🌐 [felipecardozo.github.io](https://felipecardozo.github.io/)
 
-### Technologies
-
-- HTML5
-- CSS3
-- JavaScript
-- GitHub Pages
-
-### Project Structure
-
-```text
-felipecardozo.github.io/
-├── index.html
-├── assets/
-│   ├── cv.pdf
-│   └── portrait.webp
-└── README.md
-```
 
 ### Deployment
 
-Hosted using **GitHub Pages**, with automatic deployment from the `main` branch.
+Hosted using **GitHub Pages**, with automatic deployment from the `master` branch.
 
 ### Connect
 
