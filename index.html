@@ -1,1024 +1,380 @@
 <!DOCTYPE html>
-<html lang="en">
-<!-- Head -->
-<head>
-    <title>Felipe - Software Engineer / Tech Lead</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta charset="utf-8">
-    <meta name="keywords" content="My CV in a web site, Software Engineer, Technical Lead, Backend developer,
-Frontend developer, Solution Architect, Globant, Disney, Royal Caribbean, versatile"/>
-    <!-- Default-JavaScript-File -->
 
-    <script type="text/javascript" src="js/jquery-2.1.4.min.js"></script>
-    <script type="text/javascript" src="js/bootstrap.min.js"></script>
-    <!-- //Default-JavaScript-File -->
-
-    <!-- default-css-files -->
-    <link href="css/bootstrap.css" rel='stylesheet' type='text/css'/>
-    <link href="css/font-awesome.min.css" rel="stylesheet" type="text/css" media="all"/>
-    <link href="css/circles.css" rel="stylesheet" type="text/css" media="all"/>
-
-    <!-- default-css-files -->
-
-    <!-- style.css-file -->
-    <link href="css/style.css" rel='stylesheet' type='text/css'/>
-    <link href="css/skills.css" rel='stylesheet' type='text/css'/>
-    <!-- //style.css-file -->
-
-    <link href="//fonts.googleapis.com/css?family=Text+Me+One" rel="stylesheet">
-    <link href="//fonts.googleapis.com/css?family=Oswald:200,300,400,500,600,700" rel="stylesheet">
-
-</head>
-<!-- Head -->
-
-<body id="page-top" data-spy="scroll" data-target=".navbar-fixed-top">
-
-<!-- navigation -->
-<nav class="navbar navbar-default navbar-inverse navbar-fixed-top">
-    <div class="container">
-        <div class="navbar-header page-scroll">
-            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
-                <span class="sr-only">Toggle navigation</span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-            </button>
-            <a class="navbar-brand" href="index.html">Welcome to my site</a>
-        </div>
-        <!-- Collect the nav links, forms, and other content for toggling -->
-        <div class="navbar-collapse collapse navbar-ex1-collapse">
-            <ul class="nav navbar-nav navbar-right cl-effect-15">
-                <li class="hidden"><a class="page-scroll" href="#page-top"></a></li>
-                <li><a class="page-scroll scroll" href="#home">Home</a></li>
-                <li><a class="page-scroll scroll" href="#about">About</a></li>
-                <li><a class="page-scroll scroll" href="#services">Services</a></li>
-                <li class="dropdown">
-                    <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true"
-                       aria-expanded="false">Experience<span class="caret"></span></a>
-                    <ul class="dropdown-menu">
-                        <li><a class="page-scroll scroll" href="#education">Education</a></li>
-                        <li><a class="page-scroll scroll" href="#workexperience">WorkExperience</a></li>
-                    </ul>
-                </li>
-                <li><a class="page-scroll scroll" href="#skills">skills</a></li>
-                <li><a class="page-scroll scroll" href="#contact">Contact</a></li>
-            </ul>
-        </div>
-    </div>
-</nav>
-<!-- //navigation -->
-
-<!-- banner -->
-<section class="banner" id="home">
-    <div class="container">
-        <div class="col-md-5 banner-left">
-            <!--<img src="images/banner5.png" alt="" /> -->
-        </div>
-        <div class="col-md-7 banner-right">
-            <h1>Hi, My name is </h1>
-            <span>Felipe Cardozo</span>
-            <h2>A Software Engineer with more than 12yrs code experience</h2>
-            <p>Felipe is a seasoned software engineer with more than 12 years of experience. He has played a key role in
-                leading and coordinating diverse projects, including microservices, e-commerce, and monolithic systems.
-                Additionally, Felipe has actively contributed to cutting-edge back-end/front-end development using the
-                latest technologies. Notably, he possesses a strong background in designing and architecting projects
-                with a focus on cloud technologies.</p>
-        </div>
-
-    </div>
+<html class="scroll-smooth" lang="en"><head><meta charset="utf-8"/><meta content="width=device-width, initial-scale=1.0" name="viewport"/><meta content="web_standard" name="shell-type"/><title>Felipe Cardozo — Architectural Portfolio</title><link href="https://fonts.googleapis.com" rel="preconnect"/><link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/><link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&amp;family=Manrope:wght@500;600;700&amp;display=swap" rel="stylesheet"/><link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/><style>@layer base{html,body{margin:0;padding:0;}body{overscroll-behavior:none;}main>:first-child{margin-top:0!important;}main>:last-child{margin-bottom:0!important;}}::-webkit-scrollbar{display:none;}</style><script src="https://cdn.tailwindcss.com"></script><script id="tailwind-config">tailwind.config = { darkMode: "class", theme: { extend: { "colors": { "primary-fixed-dim": "#bcc7dc", "surface-tint": "#545f71", "surface-container-lowest": "#ffffff", "on-error-container": "#93000a", "on-tertiary-fixed-variant": "#00504a", "on-error": "#ffffff", "surface-container": "#eceeed", "primary-container": "#111c2b", "inverse-surface": "#2e3131", "surface-variant": "#e1e3e2", "secondary-fixed": "#d3e4fc", "on-tertiary-container": "#389189", "on-secondary": "#ffffff", "outline": "#75777d", "on-primary-fixed": "#111c2b", "error-container": "#ffdad6", "background": "#f8faf9", "secondary-container": "#d0e1f9", "inverse-on-surface": "#eff1f0", "on-primary-container": "#798497", "outline-variant": "#c5c6cc", "primary-fixed": "#d8e3f8", "tertiary-fixed-dim": "#80d5cb", "on-background": "#191c1c", "on-primary-fixed-variant": "#3d4758", "on-surface": "#191c1c", "on-secondary-fixed-variant": "#38485b", "on-secondary-container": "#536478", "surface": "#f8faf9", "surface-dim": "#d8dada", "surface-container-high": "#e6e9e8", "on-surface-variant": "#44474c", "secondary": "#4f6074", "primary": "#000000", "surface-container-low": "#f2f4f3", "surface-container-highest": "#e1e3e2", "on-secondary-fixed": "#0b1d2e", "inverse-primary": "#bcc7dc", "on-tertiary": "#ffffff", "error": "#ba1a1a", "tertiary-fixed": "#9cf2e8", "tertiary": "#000000", "surface-bright": "#f8faf9", "secondary-fixed-dim": "#b7c8e0", "tertiary-container": "#00201d", "on-primary": "#ffffff", "on-tertiary-fixed": "#00201d" }, "borderRadius": { "DEFAULT": "0.125rem", "lg": "0.25rem", "xl": "0.5rem", "full": "0.75rem" }, "spacing": { "space-md": "1rem", "gutter-lg": "2.5rem", "space-sm": "0.5rem", "space-xs": "0.25rem", "margin": "1.25rem", "gutter": "1.5rem", "margin-lg": "5rem", "margin-md": "2.5rem", "space-lg": "1.5rem", "space-xl": "2.5rem" }, "fontFamily": { "headline-sm": ["Manrope"], "label-sm": ["Inter"], "body-md": ["Inter"], "headline-lg-mobile": ["Manrope"], "label-md": ["Inter"], "body-sm": ["Inter"], "body-lg": ["Inter"], "display-mobile": ["Manrope"], "headline-lg": ["Manrope"], "title-md": ["Manrope"], "display": ["Manrope"], "headline-md": ["Manrope"] }, "fontSize": { "headline-sm": ["1.375rem", { "lineHeight": "1.875rem", "letterSpacing": "-0.015em", "fontWeight": "600" }], "label-sm": ["0.75rem", { "lineHeight": "1rem", "letterSpacing": "0.05em", "fontWeight": "600" }], "body-md": ["1rem", { "lineHeight": "1.625rem", "letterSpacing": "-0.005em", "fontWeight": "400" }], "headline-lg-mobile": ["1.75rem", { "lineHeight": "2.25rem", "letterSpacing": "-0.02em", "fontWeight": "600" }], "label-md": ["0.875rem", { "lineHeight": "1.25rem", "letterSpacing": "0.01em", "fontWeight": "500" }], "body-sm": ["0.875rem", { "lineHeight": "1.375rem", "fontWeight": "400" }], "body-lg": ["1.125rem", { "lineHeight": "1.75rem", "letterSpacing": "-0.01em", "fontWeight": "400" }], "display-mobile": ["2.25rem", { "lineHeight": "2.75rem", "letterSpacing": "-0.025em", "fontWeight": "700" }], "headline-lg": ["2.5rem", { "lineHeight": "3rem", "letterSpacing": "-0.025em", "fontWeight": "600" }], "title-md": ["1.125rem", { "lineHeight": "1.625rem", "letterSpacing": "-0.01em", "fontWeight": "500" }], "display": ["3.5rem", { "lineHeight": "4rem", "letterSpacing": "-0.03em", "fontWeight": "700" }], "headline-md": ["1.875rem", { "lineHeight": "2.375rem", "letterSpacing": "-0.02em", "fontWeight": "600" }] } } } };</script></head><body class="bg-surface text-on-surface font-body-md text-body-md antialiased selection:bg-secondary-container selection:text-on-secondary-container"><header class="fixed top-0 left-0 w-full z-50 bg-surface/90 backdrop-blur-md border-b border-[#101b2a]/[0.08]"><div class="h-16 max-w-6xl mx-auto px-margin md:px-margin-md lg:px-gutter-lg flex items-center justify-between gap-space-md"><div class="flex items-center gap-space-sm"><a class="group flex items-center gap-space-sm focus:outline-none" data-path="portfolio" href="#"><span class="flex items-center justify-center w-7 h-7 rounded-lg bg-primary-container text-on-primary-container font-headline-sm text-label-sm tracking-widest transition-colors duration-200 group-hover:bg-primary group-hover:text-on-primary">FC</span><span class="font-title-md text-title-md text-on-surface tracking-tight transition-colors duration-200 group-hover:text-primary-container">Felipe Cardozo</span></a></div><nav class="hidden md:flex items-center gap-space-xs p-space-xs" data-active-classes="bg-surface-container text-on-surface font-label-md text-label-md"><a aria-current="page" class="px-space-sm py-space-xs rounded transition-all duration-150 bg-surface-container text-on-surface font-label-md text-label-md" data-path="portfolio" href="#about">About</a><a aria-current="page" class="px-space-sm py-space-xs rounded transition-all duration-150 bg-surface-container text-on-surface font-label-md text-label-md" data-path="portfolio" href="#expertise">Expertise</a><a aria-current="page" class="px-space-sm py-space-xs rounded transition-all duration-150 bg-surface-container text-on-surface font-label-md text-label-md" data-path="portfolio" href="#work">Work</a><a aria-current="page" class="px-space-sm py-space-xs rounded transition-all duration-150 bg-surface-container text-on-surface font-label-md text-label-md" data-path="portfolio" href="#mentoring">Mentoring</a><a aria-current="page" class="px-space-sm py-space-xs rounded transition-all duration-150 bg-surface-container text-on-surface font-label-md text-label-md" data-path="portfolio" href="#connect">Connect</a></nav><div class="flex items-center gap-space-sm"><a class="inline-flex items-center gap-space-xs px-space-sm py-space-xs border border-[#101b2a]/[0.15] rounded text-on-surface font-label-md text-label-md hover:bg-surface-container-low hover:text-primary-container transition-all duration-150 focus:outline-none focus:ring-1 focus:ring-secondary" download="" href="assets/CV FelipeCardozo EN compact.pdf"><span class="material-symbols-outlined text-[16px] text-on-surface-variant leading-none">download</span><span>Download CV</span></a><div class="w-8 h-8 rounded-full bg-primary flex items-center justify-center shrink-0"><span class="material-symbols-outlined text-on-primary text-[18px]">person</span></div></div></div></header><main class="w-full pt-16 bg-surface min-h-[calc(100vh-4rem)]"><div class="flex flex-col w-full">
+<!-- HERO SECTION -->
+<section class="w-full" id="hero">
+<div class="max-w-6xl mx-auto py-20 lg:py-24 px-margin md:px-margin-md lg:px-gutter-lg grid grid-cols-1 lg:grid-cols-12 gap-16 items-center">
+<!-- Left Column -->
+<div class="lg:col-span-7 flex flex-col items-start">
+<div class="inline-flex items-center gap-2 mb-6 px-3 py-1 rounded-full bg-surface-container text-[#0F766E] border border-[#0F766E]/20">
+<span class="w-1.5 h-1.5 rounded-full bg-[#0F766E]"></span>
+<span class="font-label-sm text-label-sm uppercase tracking-widest">Software Architect · Engineering Leader · Founder</span>
+</div>
+<h1 class="font-headline-lg text-display-mobile sm:text-headline-lg lg:text-[3.25rem] text-[#101B2A] tracking-tight leading-[1.15] mb-6">
+          I design software systems built to last.
+        </h1>
+<p class="font-body-lg text-body-lg text-[#344054] leading-relaxed mb-8 max-w-xl">
+          I'm Felipe Cardozo, a software architect with more than 15 years of experience building enterprise applications, guiding engineering teams, and helping organizations modernize complex technology environments. My work brings together thoughtful architecture, cloud engineering, and practical AI adoption.
+        </p>
+<!-- Actions -->
+<div class="flex flex-wrap items-center gap-4 mb-2">
+<a class="px-6 py-3.5 rounded bg-[#101B2A] text-white font-label-md text-label-md hover:bg-[#17283A] transition-all shadow-sm inline-flex items-center gap-2" href="#work">
+<span>Explore my work</span>
+<span class="material-symbols-outlined text-[18px]">arrow_downward</span>
+</a>
+<a class="px-5 py-3.5 rounded border border-[#101B2A]/20 text-[#101B2A] font-label-md text-label-md hover:bg-[#101B2A]/5 transition-all inline-flex items-center gap-2" href="https://www.linkedin.com/in/felipecardozo/" rel="noopener noreferrer" target="_blank">
+<span>Connect on LinkedIn</span>
+<span class="material-symbols-outlined text-[16px]">north_east</span>
+</a>
+<a class="font-label-md text-label-md text-[#0F766E] hover:text-[#00504a] font-medium inline-flex items-center gap-1.5 underline underline-offset-4 decoration-[#0F766E]/30 py-2" download="" href="assets/CV FelipeCardozo EN compact.pdf">
+<span class="material-symbols-outlined text-[16px]">download</span>
+<span>Download my CV</span>
+</a>
+</div>
+<!-- Professional Context Detail -->
+<div class="flex items-center gap-2 mt-8 text-xs font-label-md text-secondary tracking-wide">
+<span class="w-2 h-2 rounded-full bg-[#0F766E]"></span>
+<span>Software engineering since 2008</span>
+</div>
+</div>
+<!-- Right Column: Editorial Portrait -->
+<div class="lg:col-span-5 flex justify-center">
+<div class="w-full max-w-md bg-white rounded-xl overflow-hidden border border-[#101B2A]/10 shadow-md relative">
+<div class="aspect-[3/4] w-full overflow-hidden bg-surface-container">
+<img alt="Felipe Cardozo - Software Architect and Engineering Leader" class="w-full h-full object-cover object-top hover:scale-[1.02] transition-transform duration-500 ease-out" src="assets/profile.png"/>
+</div>
+<!-- Architectural Metadata Plate -->
+<div class="p-4 bg-white border-t border-[#101B2A]/08 flex items-center justify-between">
+<div>
+<span class="block font-title-md text-sm text-[#101B2A]">Felipe Cardozo</span>
+<span class="block font-label-sm text-xs text-secondary">Enterprise Engineering &amp; Modernization</span>
+</div>
+<div class="px-2.5 py-1 rounded bg-[#B9E7D5]/30 text-[#0F766E] border border-[#0F766E]/20 font-label-sm text-xs">
+              15+ Yrs Practice
+            </div>
+</div>
+</div>
+</div>
+</div>
 </section>
-<!-- //banner -->
-
-<!-- about -->
-<div class="about" id="about">
-    <div class="container">
-        <div class="about-head text-center ">
-            <h3>About me</h3>
-            <div class="about-grids-top">
-                <div class="col-md-3 about-grid">
-                    <i class="fa fa-laptop" aria-hidden="true"></i>
-                    <h4>Web Development</h4>
-                </div>
-                <div class="col-md-3 about-grid">
-                    <i class="fa fa-mobile" aria-hidden="true"></i>
-                    <h4>App Development</h4>
-                </div>
-                <div class="col-md-3 about-grid">
-                    <i class="fa fa-user" aria-hidden="true"></i>
-                    <h4>Tech Leader</h4>
-                </div>
-                <div class="col-md-3 about-grid">
-                    <i class="fa fa-th" aria-hidden="true"></i>
-                    <h4>Mentor</h4>
-                </div>
-                <div class="col-md-3 about-grid">
-                    <i class="fa fa-file-text" aria-hidden="true"></i>
-                    <h4>UI Projects</h4>
-                </div>
-                <div class="clearfix"></div>
-            </div>
-            <div class="about-grids-bottom">
-                <div class="col-md-4 about-bottom-grid">
-                    <h4>Participating in a diverse range of projects has provided me with extensive expertise in
-                        cutting-edge technologies. Starting my career as a Java developer,
-                        I later delved into other languages like JavaScript and Python. Both backend and frontend
-                        development are areas I am deeply passionate about, and I thrive on exploring cloud solutions
-                        and seamlessly integrating them with distributed event streaming platforms and other innovative
-                        technologies.</h4>
-                </div>
-                <div class="col-md-4 about-bottom-grid">
-                    <p>As a tech leader, I have embraced real challenges, recognizing that the technical aspect is a
-                        crucial factor in tasks such as migrating monoliths and refactoring microservices to optimize
-                        resource consumption.
-                        However, I firmly believe that the human element, encompassing cohesive teams and fostering
-                        effective communication, is equally vital to success. Throughout my experience as an individual
-                        contributor, advisor, and technical lead, I have honed my ability to comprehend both the needs
-                        of the team and those of our clients. This unique perspective places me in an advantageous
-                        position to navigate complexities and deliver exceptional results.</p>
-                </div>
-                <div class="col-md-4 about-bottom-grid">
-                    <p>As a software engineer adept in both front-end and back-end development, I possess a versatile
-                        skill set that allows me to effectively implement, mentor, advise, guide, test, monitor, and
-                        design real solutions. In an ever-evolving role, I embrace change and readily adopt new
-                        technologies and platforms to deliver high-quality software in the competitive landscape of the
-                        industry.
-                        My adaptability and continuous learning ensure that I stay at the forefront of emerging trends,
-                        enabling me to provide innovative and cutting-edge solutions to meet diverse challenges.</p>
-                </div>
-                <div class="clearfix"></div>
-            </div>
-            <a href="#" data-toggle="modal" data-target="#myModal"> More about me</a>
-        </div>
-
-    </div>
+<!-- ABOUT SECTION -->
+<section class="w-full bg-white border-y border-[#101B2A]/10 py-20" id="about">
+<div class="max-w-6xl mx-auto px-margin md:px-margin-md lg:px-gutter-lg">
+<div class="flex items-center gap-2 mb-3">
+<span class="w-2 h-2 rounded-full bg-[#0F766E]"></span>
+<span class="font-label-sm text-label-sm uppercase tracking-widest text-secondary">Background &amp; Philosophy</span>
 </div>
-<!-- //about -->
-
-<!-- modal -->    <!-- for about modal -->
-<div class="modal about-modal fade" id="myModal" tabindex="-1" role="dialog">
-    <div class="modal-dialog" role="document">
-        <div class="modal-content">
-            <div class="modal-header">
-                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span>
-                </button>
-                <h4 class="modal-title">About Me</h4>
-            </div>
-            <div class="modal-body">
-                <div class="about modalpad">
-                    <div class="col-md-4 col-sm-4  col-xs-4 about-left ">
-                        <img src="" class="img-responsive" alt=""/>
-                        <div class="social-icons">
-                            <a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a>
-                            <a href="#"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
-                            <a href="#"><i class="fa fa-google-plus" aria-hidden="true"></i></a>
-                            <a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a>
-                        </div>
-                    </div>
-                    <div class="col-md-8 col-sm-8 col-xs-8 about-right wthree">
-                        <h3>Hi, i'm <span>Felipe Cardozo </span></h3>
-                        <h4>Senior Software Engineer</h4>
-                        <ul class="address">
-                            <li>
-                                <ul class="agileits-address-text ">
-                                    <li><b>D.O.B</b></li>
-                                    <li>28-09-1985</li>
-                                </ul>
-                            </li>
-                            <li>
-                                <ul class="agileits-address-text">
-                                    <li><b>PHONE </b></li>
-                                    <li>+57 319 563 5187</li>
-                                </ul>
-                            </li>
-                            <li>
-                                <ul class="agileits-address-text">
-                                    <li><b>Linked In</b></li>
-                                    <li><a target="_blank" href="https://www.linkedin.com/in/felipecardozo/">linkedin.com/in/felipecardozo</a>
-                                    </li>
-                                </ul>
-                            </li>
-                            <li>
-                                <ul class="agileits-address-text">
-                                    <li><b>E-MAIL </b></li>
-                                    <li><a href="mailto:felipe.cardozo@gmail.com"> felipe.cardozo@gmail.com</a></li>
-                                </ul>
-                            </li>
-                            <li>
-                                <ul class="agileits-address-text">
-                                    <li><b>WEBSITE</b></li>
-                                    <li><a href="#">felipecardozo.github.io</a></li>
-                                </ul>
-                            </li>
-                        </ul>
-                    </div>
-                    <div class="clearfix"></div>
-                </div>
-            </div>
-        </div>
-    </div>
+<h2 class="font-headline-lg text-headline-md sm:text-headline-lg text-[#101B2A] tracking-tight mb-6">
+        Engineering with perspective.
+      </h2>
+<p class="font-body-lg text-body-lg text-[#344054] leading-relaxed max-w-3xl mb-12">
+        I began my career in software engineering in 2008. Over the years, I've worked across enterprise platforms, backend engineering, distributed systems, technical leadership, and modernization initiatives. Today, my focus is on connecting sound engineering principles with emerging capabilities in cloud computing and artificial intelligence. I care about systems that remain understandable, maintainable, and useful long after their initial release.
+      </p>
+<!-- Three Metric Cards -->
+<div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+<div class="bg-surface p-6 rounded-xl border border-[#101B2A]/08">
+<div class="font-headline-sm text-headline-sm text-[#101B2A] mb-2 flex items-center justify-between">
+<span>15+ Years</span>
+<span class="material-symbols-outlined text-secondary text-[20px]">calendar_today</span>
 </div>
-<!-- //modal -->    <!-- for about modal -->
-
-<!-- services -->
-<div id="services" class="services">
-    <div class="container">
-        <div class="service-head one text-center ">
-            <h3>My Services</h3>
-        </div>
-        <!-- services-grids -->
-        <div class="wthree_about_right_grids w3l-agile">
-            <div class="col-md-4 wthree_about_right_grid">
-                <div class="wthree_about_right_grid_left">
-                    <div class="hvr-rectangle-in">
-                        <i class="glyphicon glyphicon-console"></i>
-                    </div>
-                </div>
-                <div class="wthree_about_right_grid_right">
-                    <h4>Java backend</h4>
-                    <p>
-                        With extensive experience spanning from Java 6 to the latest Java 17, my journey in Java
-                        projects has evolved over the years.
-                        My proficiency encompasses a wide array of Java versions, including Java 8, Java 11, and Java
-                        14. My expertise extends to various facets of the Spring Framework, demonstrating a strong grasp
-                        of Spring Core, Spring Boot, Spring Data, Spring Webflux, and Spring Cloud, among others.
-                        Moreover, my capabilities encompass seamless integration with diverse systems and databases,
-                        including Apache Solr, Kafka, MongoDB, and Elasticsearch.
-                        Programming in java has become very interesting with functional programming, and more over
-                        reactive programming, that's why I like to mention since this is becoming challenging in Java
-                        ecosystem projects.
-                    </p>
-                </div>
-                <div class="clearfix"></div>
-            </div>
-
-            <div class="col-md-4 wthree_about_right_grid">
-                <div class="wthree_about_right_grid_left">
-                    <div class="hvr-rectangle-in">
-                        <i class="glyphicon glyphicon-console"></i>
-                    </div>
-                </div>
-                <div class="wthree_about_right_grid_right">
-                    <h4>Node Backend</h4>
-                    <p>
-                        Node.js stands out as a versatile platform that seamlessly bridges both front-end (FE) and
-                        back-end (BE) development landscapes.
-                        My preference leans towards leveraging Node.js predominantly with JavaScript, contrasting its
-                        dynamic nature with my background in the imperative and typed realm of Java.
-                        This choice aligns with my inclination towards its complementary counterpart. Express and KOA
-                        emerge as my favored companions within the Node ecosystem, further enriched by hands-on
-                        experience with libraries like AJV.
-                        Delving into the core of Node, I've gained a nuanced understanding of its essential components,
-                        including libuv, workers, child processes, streams, and buffers.
-                        My intrigue extends to the potent capabilities of socket.io, which I find exceptionally
-                        well-suited to modern-day demands.
-                        Drawing on my Java expertise, I skillfully integrate Node.js with an array of technologies
-                        encompassing Kafka, SQL, NoSQL databases, caching mechanisms, and more.
-                        This affords me a comprehensive toolkit to orchestrate seamless interactions across various tech
-                        stacks.
-                    </p>
-                </div>
-                <div class="clearfix"></div>
-            </div>
-
-
-            <div class="col-md-4 wthree_about_right_grid">
-                <div class="wthree_about_right_grid_left">
-                    <div class="hvr-rectangle-in">
-                        <i class="glyphicon glyphicon-console"></i>
-                    </div>
-                </div>
-                <div class="wthree_about_right_grid_right">
-                    <h4>FE / Web Development</h4>
-                    <p>
-                        My journey in frontend projects and web development began with vanilla JavaScript sites, where
-                        jQuery was the primary tool for DOM manipulation.
-                        In more recent years, I explored Angular projects, but the advent of React and its inherent
-                        potential resonated with me, leading me to fully embrace the capabilities of this elegant
-                        library.
-                        Currently, my expertise lies in React.js and something of Next.js, leveraging its strong
-                        foundation to craft components adhering to atomic design principles, and seamlessly integrating
-                        hooks to enhance functionality.
-                        My affection for CSS endures, rooted in its significance since my early days in web development,
-                        making it a creative realm I thoroughly enjoy exploring and experimenting with.
-                    </p>
-                </div>
-                <div class="clearfix"></div>
-            </div>
-            <div class="clearfix"></div>
-            <div class="col-md-4 wthree_about_right_grid">
-                <div class="wthree_about_right_grid_left">
-                    <div class="hvr-rectangle-in">
-                        <i class="glyphicon glyphicon-cloud"></i>
-                    </div>
-                </div>
-                <div class="wthree_about_right_grid_right">
-                    <h4>Cloud Solutions</h4>
-                    <p>
-                        Cloud computing has emerged as a pivotal field with high demands on developers, necessitating
-                        expertise in platforms like AWS.
-                        Personally, my journey has been engaging as I've delved into AWS, amassing substantial
-                        experience across a range of services, including ECS, EC2, Lambda functions, SQS, SNS, Route53,
-                        and Secret Managers.
-                        My proficiency lies in utilizing cloud formation, particularly with TypeScript and JavaScript,
-                        as I find this approach more adept for orchestrating services compared to tools like Terraform.
-                        While I've also ventured into GCP, my mastery remains more substantial in AWS, enabling me to
-                        provide proficient support and guidance, even though I possess a comprehensive understanding of
-                        GCP's service landscape.
-                    </p>
-                </div>
-                <div class="clearfix"></div>
-            </div>
-
-            <div class="col-md-4 wthree_about_right_grid">
-                <div class="wthree_about_right_grid_left">
-                    <div class="hvr-rectangle-in">
-                        <i class="glyphicon glyphicon-pencil"></i>
-                    </div>
-                </div>
-                <div class="wthree_about_right_grid_right">
-                    <h4>Designing - Architecture</h4>
-                    <p>
-                        In my role as a Tech Lead, I have consistently demonstrated expertise in orchestrating and
-                        connecting critical reactive services, crafting robust event-driven architectures utilizing
-                        tools like Kafka.
-                        My experience extends to seamlessly integrating powerful search engines such as Elasticsearch
-                        and Apache Solr, enriching the systems I've contributed to.
-                        My proficiency is equally pronounced in diverse programming languages including Java and
-                        Node.js, underscoring my adaptability and versatility in architecting solutions across different
-                        tech stacks.
-                        Furthermore, I've championed the adoption of clean architectural principles, instilling a
-                        structured approach that fosters maintainable, modular, and well-designed systems.
-                        This combination of skills has allowed me to elevate the architecture of projects I've led,
-                        ensuring the delivery of high-performance and scalable solutions.
-                    </p>
-                </div>
-                <div class="clearfix"></div>
-            </div>
-
-            <div class="col-md-4 wthree_about_right_grid">
-                <div class="wthree_about_right_grid_left">
-                    <div class="hvr-rectangle-in">
-                        <i class="glyphicon glyphicon-fullscreen"></i>
-                    </div>
-                </div>
-                <div class="wthree_about_right_grid_right">
-                    <h4>CMS & e-commerce</h4>
-                    <p>
-                        My expertise spans across prominent Content Management Systems (CMS) including AEM and
-                        Contentful, where I've successfully delivered cutting-edge systems that push the boundaries of
-                        innovation.
-                        In addition, my proficiency extends to Salesforce Commerce Cloud (formerly Demandware), a
-                        platform I find particularly enjoyable to work with.
-                        My experience in these CMS/e-commerce platforms highlights my ability to drive impactful
-                        solutions, demonstrating my adaptability and skill in crafting dynamic digital experiences.
-                    </p>
-                </div>
-                <div class="clearfix"></div>
-            </div>
-
-            <div class="clearfix"></div>
-        </div>
-        <!-- services-grids -->
-    </div>
+<p class="font-body-sm text-body-sm text-[#344054]">
+            Continuous engineering practice in distributed systems, resilient backend architecture, and technical team mentoring.
+          </p>
 </div>
-<!-- services -->
-
-<!-- Stats -->
-<div class="col-md-8 stats news-w3layouts">
-    <div class="stats-info agileits-w3layouts">
-        <div class="col-sm-4 col-xs-6 stats-grid">
-            <div class="stats-img">
-                <i class="fa fa-check-square-o" aria-hidden="true"></i>
-            </div>
-            <p>Projects</p>
-            <div class='numscroller numscroller-big-bottom' data-slno='1' data-min='0' data-max='17' data-delay='.5'
-                 data-increment="1">17
-            </div>
-        </div>
-        <div class="col-sm-4 col-xs-6 stats-grid">
-            <div class="stats-img w3-agileits">
-                <i class="fa fa-heart-o" aria-hidden="true"></i>
-            </div>
-            <p>Happy Clients</p>
-            <div class='numscroller numscroller-big-bottom' data-slno='1' data-min='0' data-max='4' data-delay='.5'
-                 data-increment="1">4
-            </div>
-        </div>
-        <div class="col-sm-4 col-xs-6 stats-grid">
-            <div class="stats-img w3-agileits">
-                <i class="fa fa-trophy" aria-hidden="true"></i>
-            </div>
-            <p>Mentions/Kudos</p>
-            <div class='numscroller numscroller-big-bottom' data-slno='1' data-min='0' data-max='25' data-delay='.5'
-                 data-increment="1">25
-            </div>
-        </div>
-        <div class="clearfix"></div>
-    </div>
+<div class="bg-surface p-6 rounded-xl border border-[#101B2A]/08">
+<div class="font-headline-sm text-headline-sm text-[#101B2A] mb-2 flex items-center justify-between">
+<span>Globant</span>
+<span class="material-symbols-outlined text-secondary text-[20px]">corporate_fare</span>
 </div>
-<div class="col-md-4 projects-right1">
-    <img src="images/stats.jpg" alt=""/>
+<p class="font-body-sm text-body-sm text-[#344054]">
+            Software Architect guiding enterprise engineering standards, solution design, and mission-critical client initiatives.
+          </p>
 </div>
-<div class="clearfix"></div>
-<!-- //Stats -->
-
-<!-- Education and Work experience -->
-<!-- education -->
-<div class="experience" id="experience">
-    <div class="container">
-        <div class="experience-head text-center ">
-            <h3>Education and work experience</h3>
-        </div>
-        <div class="col-md-12 abt-left" id="education">
-            <h3>Education</h3>
-            <div class="accordion">
-                <div class="accordion-section">
-                    <h5>
-                        <a class="accordion-section-title" href="#accordion-1">
-                            <span>2007 - 2011</span>Bachelor Degree - System Engineer - Politecnico Grancolombiano
-                            <i class="glyphicon glyphicon-chevron-down"></i>
-                        </a>
-                    </h5>
-                    <div id="accordion-1" class="accordion-section-content">
-                        <h6>Highlights</h6>
-                        <ul>
-                            <li><span class="glyphicon glyphicon-arrow-right" aria-hidden="true"></span><a href="#">Diploma
-                                in computer science and architecture</a></li>
-                            <li><span class="glyphicon glyphicon-arrow-right" aria-hidden="true"></span><a href="#">Talks
-                                in computer fundamentals</a></li>
-                        </ul>
-                    </div>
-                </div>
-
-                <div class="accordion-section">
-                    <h5><a class="accordion-section-title" href="#accordion-2">
-                        <span>2012</span>OCJP 6 / Certification
-                        <i class="glyphicon glyphicon-chevron-down"></i>
-                    </a></h5>
-                    <div id="accordion-2" class="accordion-section-content">
-                        <h6>Seminars</h6>
-                        <ul>
-                            <li><span class="glyphicon glyphicon-star" aria-hidden="true"></span><a href="#">Oracle
-                                Certified Professional</a></li>
-                        </ul>
-                    </div>
-                </div>
-
-                <div class="accordion-section">
-                    <h5><a class="accordion-section-title" href="#accordion-3">
-                        <span>2013</span>Demandware Certification / Salesforce Commerce Cloud
-                        <i class="glyphicon glyphicon-chevron-down"></i>
-                    </a></h5>
-                    <div id="accordion-3" class="accordion-section-content">
-                        <h6>Competitions</h6>
-                        <ul>
-                            <li><span class="glyphicon glyphicon-ok" aria-hidden="true"></span><a href="#">Salesforce
-                                commerce cloud B2C certification</a></li>
-                        </ul>
-                    </div>
-                </div>
-
-                <div class="accordion-section">
-                    <h5><a class="accordion-section-title" href="#accordion-4">
-                        <span>2023</span>MongoDB SI Associate Certification
-                        <i class="glyphicon glyphicon-chevron-down"></i>
-                    </a></h5>
-                    <div id="accordion-4" class="accordion-section-content">
-                        <h6>Competitions</h6>
-                        <ul>
-                            <li><span class="glyphicon glyphicon-ok" aria-hidden="true"></span><a href="#">Issued by
-                                MongoDB where include associate for Aggregations, Clusters, Scalability, and others</a>
-                            </li>
-                        </ul>
-                    </div>
-                </div>
-
-
-            </div>
-            <script>
-                jQuery(document).ready(function () {
-                    function close_accordion_section() {
-                        jQuery('.accordion .accordion-section-title').removeClass('active');
-                        jQuery('.accordion .accordion-section-content').slideUp(300).removeClass('open');
-                    }
-
-                    jQuery('.accordion-section-title').click(function (e) {
-                        // Grab current anchor value
-                        var currentAttrValue = jQuery(this).attr('href');
-
-                        if (jQuery(e.target).is('.active')) {
-                            close_accordion_section();
-                        } else {
-                            close_accordion_section();
-
-                            // Add active class to section title
-                            jQuery(this).addClass('active');
-                            // Open up the hidden content panel
-                            jQuery('.accordion ' + currentAttrValue).slideDown(300).addClass('open');
-                        }
-
-                        e.preventDefault();
-                    });
-                });
-            </script>
-            <script type="text/javascript" src="js/numscroller-1.0.js"></script>
-        </div>
-        <!-- //education -->
-        <!-- experience -->
-        <div class="col-md-12 w3-agileits-info" id="workexperience">
-            <h3 class="exp">Work Experience</h3>
-            <div class="experience-grids">
-                <div class="experience-left">
-                    <h3>2022 May - Present</h3>
-                    <h5>Globant</h5>
-                </div>
-                <div class="experience-right">
-                    <h4>Software Designer</h4>
-                    <p>Contributed significantly to the design and successful implementation of a cutting-edge solution
-                        that empowered the client to effectively manage sensitive content for their releases.
-                        By developing custom permissions and enabling seamless data and content scaling on demand, we
-                        achieved remarkable results. Notably, this solution resulted in an impressive 40% reduction in
-                        annual costs,
-                        making a substantial impact in the highly competitive streaming and content industry.</p>
-                </div>
-                <div class="clearfix"></div>
-            </div>
-            <div class="experience-grids">
-                <div class="experience-left">
-                    <h3>2020 August - 2021 April</h3>
-                    <h5>Prodigious</h5>
-                </div>
-                <div class="experience-right">
-                    <h4>Principal Software Engineer</h4>
-                    <p>Pioneered the design of an innovative cloud-based solution built on a serverless architecture.
-                        This ground-breaking system efficiently transferred and scaled existing data from a monolithic
-                        system into a brand-new, highly responsive microservice capable of handling massive content
-                        volumes.
-                        By doing so, we empowered the client to make substantial savings in their infrastructure costs,
-                        while also eliminating the need for maintaining the outdated system. As per the forecast report
-                        for 2021,
-                        the strategic implementation resulted in a remarkable 30% reduction in effort, time, and
-                        associated expenses, positioning the client for future success.</p>
-                </div>
-                <div class="clearfix"></div>
-            </div>
-            <div class="experience-grids">
-                <div class="experience-left">
-                    <h3>2017 August - 2020 May</h3>
-                    <h5>Globant</h5>
-                </div>
-                <div class="experience-right">
-                    <h4>Senior Software Engineer / AEM Specialist</h4>
-                    <p>Led and orchestrated a high-performing team responsible for planning activities for a fleet of 30
-                        ships, catering to diverse guests from various countries, regions, and time zones.
-                        Our meticulous attention to detail ensured that Digital Managers had access to reliable and
-                        relevant content, enabling guests to seamlessly book and participate in activities with utmost
-                        precision.
-                        Furthermore, I spearheaded the refactoring of these microservices, resulting in substantial cost
-                        savings and the efficient allocation of resources.
-                        This strategic move led to a remarkable 33% reduction in infrastructure expenses across the
-                        entire fleet.
-                        Through proactive optimization and innovative solutions, we successfully streamlined operations,
-                        enhancing overall efficiency and resource management.
-                    </p>
-                </div>
-                <div class="clearfix"></div>
-            </div>
-            <div class="experience-grids">
-                <div class="experience-left">
-                    <h3>2016 January - Now </h3>
-                    <h5>Affinitas GmbH</h5>
-                </div>
-                <div class="experience-right">
-                    <h4>Senior Software Engineer</h4>
-                    <p>Successfully implemented user tracking data for various countries, empowering financial
-                        stakeholders to make informed decisions and extract valuable insights about user preferences and
-                        purchasing behavior.
-                        By meticulously collecting and analyzing this data, we provided crucial information that enabled
-                        stakeholders to identify user preferences, understand preferred purchasing locations, and
-                        optimize their business strategies accordingly.
-                        The generated insights proved instrumental in driving better decision-making, enhancing user
-                        experiences, and ultimately contributing to the company's growth and success.</p>
-                </div>
-                <div class="clearfix"></div>
-            </div>
-            <div class="experience-grids experience-grids-btm">
-                <div class="experience-left">
-                    <h3>June 2014 - December 2015</h3>
-                    <h5>Globant </h5>
-                </div>
-                <div class="experience-right">
-                    <h4>Software Designer</h4>
-                    <p>Lead the development of websites, implementing different components for a retailer website <a
-                            target="_blank" href="https://www.trinaturk.com">www.trinaturk.com</a> generating value and
-                        well positioning in their market</p>
-                </div>
-                <div class="clearfix"></div>
-            </div>
-            <div class="experience-grids w3-agileits">
-                <div class="experience-left">
-                    <h3>2013 January - 2014 June</h3>
-                    <h5>Prodigious</h5>
-                </div>
-                <div class="experience-right">
-                    <h4>Senior Software Engineer</h4>
-                    <p>Implemented components for a retail for <a href="https://www.glasses.com">glasses.com</a> helping
-                        to the client reuse these components for next development for other sites in their own</p>
-                </div>
-                <div class="clearfix"></div>
-            </div>
-        </div>
-    </div>
+<div class="bg-surface p-6 rounded-xl border border-[#101B2A]/08">
+<div class="font-headline-sm text-headline-sm text-[#101B2A] mb-2 flex items-center justify-between">
+<span>Devify LLC</span>
+<span class="material-symbols-outlined text-secondary text-[20px]">domain</span>
 </div>
-<!-- //experience -->
-
-<!-- Education and Work experience -->
-
-<!-- coding skills -->
-<div class="w3ls_agile_circle_progress agile_info_shadow" id="skills2">
-    <div class="cir_agile_info ">
-        <h3 class="w3_inner_tittle text-center">Tech Skills</h3>
-        <div class="myskills">
-            <h2>Languages - Libraries - Frameworks</h2>
-            <ul>
-                <li><span class="html5"></span><em>Node</em></li>
-                <li><span class="html5"></span><em>Java</em></li>
-                <li><span class="html5"></span><em>Javascript</em></li>
-                <li><span class="illustrator"></span><em>React</em></li>
-                <li><span class="css3"></span><em>Express</em></li>
-                <li><span class="css3"></span><em>Koa</em></li>
-                <li><span class="css3"></span><em>AJV</em></li>
-                <li><span class="css3"></span><em>Spring Core</em></li>
-                <li><span class="css3"></span><em>Spring Boot</em></li>
-                <li><span class="css3"></span><em>Spring Cloud</em></li>
-                <li><span class="css3"></span><em>Spring Data</em></li>
-                <li><span class="magento"></span><em>Spring Webflux</em></li>
-            </ul>
-            <h2>Databases / Search Engines</h2>
-            <ul>
-                <li><span class="wordpress"></span><em>MongoDB</em></li>
-                <li><span class="magento"></span><em>Apache Solr</em></li>
-                <li><span class="magento"></span><em>MariaDB</em></li>
-                <li><span class="magento"></span><em>MySQL</em></li>
-                <li><span class="magento"></span><em>Oracle</em></li>
-                <li><span class="magento"></span><em>SQL Server</em></li>
-                <li><span class="magento"></span><em>ElasticSearch</em></li>
-                <li><span class="js"></span><em>Couchbase</em></li>
-                <li><span class="js"></span><em>Redis</em></li>
-            </ul>
-            <h2>Cloud / Message</h2>
-            <ul>
-                <li><span class="photoshop"></span><em>AWS</em></li>
-                <li><span class="photoshop"></span><em>Apache Kafka</em></li>
-            </ul>
-            <h2>Others</h2>
-            <ul>
-                <li><span class="illustrator"></span><em>Docker</em></li>
-                <li><span class="illustrator"></span><em>AEM 6.x</em></li>
-                <li><span class="photoshop"></span><em>SFCC / Demandware</em></li>
-            </ul>
-        </div>
-    </div>
+<p class="font-body-sm text-body-sm text-[#344054]">
+            Founder spearheading modernization blueprints, pragmatic cloud adoption, and AI assisted development pipelines.
+          </p>
 </div>
-<!-- //coding skills -->
-
-<!-- contact -->
-<div class="agile_about contact" id="contact">
-    <div class="container">
-        <div class="agileits_agile_about">
-            <div class="contact-head text-center ">
-                <h3>contact me</h3>
-            </div>
-            <div class="container-profiles">
-                <main class="grid">
-                    <article>
-                        <img src="./images/LinkedIn_logo_initials.png" alt="LinkedIn Profile">
-                        <div class="text">
-                            <a target="_blank" href="https://www.linkedin.com/in/felipecardozo/"
-                               class="btn btn-primary btn-block">Go to my profile</a>
-                        </div>
-                    </article>
-                    <article>
-                        <img src="./images/pdf_logo.png" alt="Sample photo">
-                        <div class="text">
-                            <a target="_blank" href="./resources/CVFelipeCardozoEN.pdf"
-                               class="btn btn-primary btn-block">Get the PDF</a>
-                        </div>
-                    </article>
-                </main>
-            </div>
-        </div>
-    </div>
 </div>
-<!-- stats numscroller-js-file -->
-<script type="text/javascript" src="js/numscroller-1.0.js"></script>
-<!-- //stats numscroller-js-file -->
-
-<!-- start-smooth-scrolling -->
-<script type="text/javascript" src="js/move-top.js"></script>
-<script type="text/javascript" src="js/easing.js"></script>
-<script type="text/javascript">
-    jQuery(document).ready(function ($) {
-        $(".scroll").click(function (event) {
-            event.preventDefault();
-
-            $('html,body').animate({scrollTop: $(this.hash).offset().top}, 1000);
-        });
-    });
-</script>
-<!-- //end-smooth-scrolling -->
-<!-- smooth-scrolling-of-move-up -->
-<script type="text/javascript">
-    $(document).ready(function () {
-        /*
-        var defaults = {
-            containerID: 'toTop', // fading element id
-            containerHoverID: 'toTopHover', // fading element hover id
-            scrollSpeed: 1200,
-            easingType: 'linear'
-        };
-        */
-
-        $().UItoTop({easingType: 'easeOutQuart'});
-
-    });
-</script>
-<!-- //smooth-scrolling-of-move-up -->
-<!--scrolling js-->
-<script src="js/jquery.nicescroll.js"></script>
-<script src="js/scripts.js"></script>
-<!--//scrolling js-->
-
-
-<!-- portfolio modal -->
-<div class="portfolio-modal modal fade slideanim" id="portfolioModal1" tabindex="-1" role="dialog"
-     aria-hidden="true">
-    <div class="modal-content port-modal">
-        <div class="close-modal" data-dismiss="modal">
-            <div class="lr">
-                <div class="rl"></div>
-            </div>
-        </div>
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-8 col-lg-offset-2 text-center">
-                    <div class="modal-body">
-                        <h3>Image-Title</h3>
-                        <img src="images/g1.jpg" class="img-responsive img-centered" alt="">
-                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem
-                            Ipsum has been the industry's standard dummy text ever since the 1500s, when an
-                            unknown printer took a galley of type and scrambled it to make a type specimen
-                            book.</p>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
 </div>
-<div class="portfolio-modal modal fade slideanim" id="portfolioModal2" tabindex="-1" role="dialog"
-     aria-hidden="true">
-    <div class="modal-content port-modal">
-        <div class="close-modal" data-dismiss="modal">
-            <div class="lr">
-                <div class="rl"></div>
-            </div>
-        </div>
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-8 col-lg-offset-2 text-center">
-                    <div class="modal-body">
-                        <h3>Image-Title</h3>
-                        <img src="images/g3.jpg" class="img-responsive img-centered" alt="">
-                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem
-                            Ipsum has been the industry's standard dummy text ever since the 1500s, when an
-                            unknown printer took a galley of type and scrambled it to make a type specimen
-                            book.</p>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
+</section>
+<!-- EXPERTISE SECTION -->
+<section class="w-full py-20 bg-surface" id="expertise">
+<div class="max-w-6xl mx-auto px-margin md:px-margin-md lg:px-gutter-lg">
+<div class="mb-12">
+<div class="flex items-center gap-2 mb-3">
+<span class="w-2 h-2 rounded-full bg-[#0F766E]"></span>
+<span class="font-label-sm text-label-sm uppercase tracking-widest text-secondary">Core Competencies</span>
 </div>
-<div class="portfolio-modal modal fade slideanim" id="portfolioModal3" tabindex="-1" role="dialog"
-     aria-hidden="true">
-    <div class="modal-content port-modal">
-        <div class="close-modal" data-dismiss="modal">
-            <div class="lr">
-                <div class="rl"></div>
-            </div>
-        </div>
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-8 col-lg-offset-2 text-center">
-                    <div class="modal-body">
-                        <h3>Image-Title</h3>
-                        <img src="images/g2.jpg" class="img-responsive img-centered" alt="">
-                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem
-                            Ipsum has been the industry's standard dummy text ever since the 1500s, when an
-                            unknown printer took a galley of type and scrambled it to make a type specimen
-                            book.</p>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
+<h2 class="font-headline-lg text-headline-md sm:text-headline-lg text-[#101B2A] tracking-tight mb-3">
+          Where I focus my work.
+        </h2>
+<p class="font-body-lg text-body-lg text-[#344054] max-w-2xl">
+          Core technical domains and strategic architecture competencies grounded in enterprise scale.
+        </p>
 </div>
-<div class="portfolio-modal modal fade slideanim" id="portfolioModal4" tabindex="-1" role="dialog"
-     aria-hidden="true">
-    <div class="modal-content port-modal">
-        <div class="close-modal" data-dismiss="modal">
-            <div class="lr">
-                <div class="rl"></div>
-            </div>
-        </div>
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-8 col-lg-offset-2 text-center">
-                    <div class="modal-body">
-                        <h3>Image-Title</h3>
-                        <img src="images/g4.jpg" class="img-responsive img-centered" alt="">
-                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem
-                            Ipsum has been the industry's standard dummy text ever since the 1500s, when an
-                            unknown printer took a galley of type and scrambled it to make a type specimen
-                            book.</p>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
+<!-- 4-Card Grid -->
+<div class="grid grid-cols-1 md:grid-cols-2 gap-6 mb-12">
+<!-- 1. Software Architecture -->
+<div class="bg-white p-8 rounded-xl border border-[#101B2A]/10 hover:border-[#0F766E]/40 transition-colors shadow-sm">
+<div class="w-12 h-12 rounded-lg bg-[#F2F4F3] text-[#101B2A] flex items-center justify-center mb-6">
+<svg class="w-6 h-6" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.75" viewbox="0 0 24 24">
+<rect height="7" width="7" x="3" y="3"></rect>
+<rect height="7" width="7" x="14" y="3"></rect>
+<rect height="7" width="7" x="14" y="14"></rect>
+<rect height="7" width="7" x="3" y="14"></rect>
+<path d="M10 6.5h4"></path>
+<path d="M6.5 10v4"></path>
+<path d="M17.5 10v4"></path>
+<path d="M10 17.5h4"></path>
+</svg>
 </div>
-<div class="portfolio-modal modal fade slideanim" id="portfolioModal5" tabindex="-1" role="dialog"
-     aria-hidden="true">
-    <div class="modal-content port-modal">
-        <div class="close-modal" data-dismiss="modal">
-            <div class="lr">
-                <div class="rl"></div>
-            </div>
-        </div>
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-8 col-lg-offset-2 text-center">
-                    <div class="modal-body">
-                        <h3>Image-Title</h3>
-                        <img src="images/g5.jpg" class="img-responsive img-centered" alt="">
-                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem
-                            Ipsum has been the industry's standard dummy text ever since the 1500s, when an
-                            unknown printer took a galley of type and scrambled it to make a type specimen
-                            book.</p>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
+<h3 class="font-headline-sm text-headline-sm text-[#101B2A] mb-3">Software Architecture</h3>
+<p class="font-body-md text-body-md text-[#344054] leading-relaxed">
+            Designing enterprise applications, distributed systems, APIs, and integration architectures with attention to reliability, scalability, and maintainability.
+          </p>
 </div>
-<div class="portfolio-modal modal fade slideanim" id="portfolioModal6" tabindex="-1" role="dialog"
-     aria-hidden="true">
-    <div class="modal-content port-modal">
-        <div class="close-modal" data-dismiss="modal">
-            <div class="lr">
-                <div class="rl"></div>
-            </div>
-        </div>
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-8 col-lg-offset-2 text-center">
-                    <div class="modal-body">
-                        <h3>Image-Title</h3>
-                        <img src="images/g6.jpg" class="img-responsive img-centered" alt="">
-                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem
-                            Ipsum has been the industry's standard dummy text ever since the 1500s, when an
-                            unknown printer took a galley of type and scrambled it to make a type specimen
-                            book.</p>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
+<!-- 2. Legacy Modernization -->
+<div class="bg-white p-8 rounded-xl border border-[#101B2A]/10 hover:border-[#0F766E]/40 transition-colors shadow-sm">
+<div class="w-12 h-12 rounded-lg bg-[#F2F4F3] text-[#101B2A] flex items-center justify-center mb-6">
+<svg class="w-6 h-6" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.75" viewbox="0 0 24 24">
+<path d="M18 10h-1.26A8 8 0 1 0 9 20h9a5 5 0 0 0 0-10z"></path>
+<polyline points="13 14 16 11 19 14"></polyline>
+<line x1="16" x2="16" y1="11" y2="17"></line>
+</svg>
 </div>
-<div class="portfolio-modal modal fade slideanim" id="portfolioModal7" tabindex="-1" role="dialog"
-     aria-hidden="true">
-    <div class="modal-content port-modal">
-        <div class="close-modal" data-dismiss="modal">
-            <div class="lr">
-                <div class="rl"></div>
-            </div>
-        </div>
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-8 col-lg-offset-2 text-center">
-                    <div class="modal-body">
-                        <h3>Image-Title</h3>
-                        <img src="images/g7.jpg" class="img-responsive img-centered" alt="">
-                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem
-                            Ipsum has been the industry's standard dummy text ever since the 1500s, when an
-                            unknown printer took a galley of type and scrambled it to make a type specimen
-                            book.</p>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
+<h3 class="font-headline-sm text-headline-sm text-[#101B2A] mb-3">Legacy Modernization</h3>
+<p class="font-body-md text-body-md text-[#344054] leading-relaxed">
+            Helping teams understand existing technology environments and define practical modernization strategies using cloud platforms and contemporary engineering practices.
+          </p>
 </div>
-<div class="portfolio-modal modal fade slideanim" id="portfolioModal8" tabindex="-1" role="dialog"
-     aria-hidden="true">
-    <div class="modal-content port-modal">
-        <div class="close-modal" data-dismiss="modal">
-            <div class="lr">
-                <div class="rl"></div>
-            </div>
-        </div>
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-8 col-lg-offset-2 text-center">
-                    <div class="modal-body">
-                        <h3>Image-Title</h3>
-                        <img src="images/g8.jpg" class="img-responsive img-centered" alt="">
-                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem
-                            Ipsum has been the industry's standard dummy text ever since the 1500s, when an
-                            unknown printer took a galley of type and scrambled it to make a type specimen
-                            book.</p>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
+<!-- 3. AI and Engineering -->
+<div class="bg-white p-8 rounded-xl border border-[#101B2A]/10 hover:border-[#0F766E]/40 transition-colors shadow-sm">
+<div class="w-12 h-12 rounded-lg bg-[#F2F4F3] text-[#101B2A] flex items-center justify-center mb-6">
+<svg class="w-6 h-6" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.75" viewbox="0 0 24 24">
+<rect height="16" rx="2" width="16" x="4" y="4"></rect>
+<circle cx="9" cy="9" r="1.5"></circle>
+<circle cx="15" cy="9" r="1.5"></circle>
+<circle cx="12" cy="15" r="1.5"></circle>
+<path d="M9 10.5v3"></path>
+<path d="M15 10.5v3"></path>
+<path d="M10.5 12h3"></path>
+</svg>
 </div>
-<div class="portfolio-modal modal fade slideanim" id="portfolioModal9" tabindex="-1" role="dialog"
-     aria-hidden="true">
-    <div class="modal-content port-modal">
-        <div class="close-modal" data-dismiss="modal">
-            <div class="lr">
-                <div class="rl"></div>
-            </div>
-        </div>
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-8 col-lg-offset-2 text-center">
-                    <div class="modal-body">
-                        <img src="images/g9.jpg" class="img-responsive img-centered" alt="">
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
+<h3 class="font-headline-sm text-headline-sm text-[#101B2A] mb-3">AI and Engineering</h3>
+<p class="font-body-md text-body-md text-[#344054] leading-relaxed">
+            Exploring the practical application of artificial intelligence in software development, code analysis, automation, architecture, and modernization workflows.
+          </p>
 </div>
-<!-- portfolio modal -->
-
-<!-- /circle-->
-<script type="text/javascript" src="js/circles.js"></script>
-<script>
-
-    Circles.create({
-        id: document.getElementById('circles-1').id,
-        percentage: 90,
-        radius: 80,
-        width: 10,
-        number: 90,
-        text: '%',
-        colors: ['#ffffff', '#fd9426']
-    });
-
-    Circles.create({
-        id: document.getElementById('circles-2').id,
-        percentage: 70,
-        radius: 80,
-        width: 10,
-        number: 70,
-        text: '%',
-        colors: ['#ffffff', '#fc3158']
-    });
-
-    Circles.create({
-        id: document.getElementById('circles-3').id,
-        percentage: 70,
-        radius: 80,
-        width: 10,
-        number: 70,
-        text: '%',
-        colors: ['#ffffff', '#53d769']
-    });
-
-    Circles.create({
-        id: document.getElementById('circles-4').id,
-        percentage: 80,
-        radius: 80,
-        width: 10,
-        number: 80,
-        text: '%',
-        colors: ['#ffffff', '#147efb']
-    });
-
-</script>
-<!-- //circle -->
-
-<!-- js for smooth scrollings -->
-<script src="js/SmoothScroll.min.js"></script>
-<!-- js for smooth scrollings -->
-
-
-<!-- Scrolling Nav JavaScript -->
-<script src="js/scrolling-nav.js"></script>
-<!-- //fixed-scroll-nav-js -->
-
-</body>
-</html>
+<!-- 4. Technical Leadership -->
+<div class="bg-white p-8 rounded-xl border border-[#101B2A]/10 hover:border-[#0F766E]/40 transition-colors shadow-sm">
+<div class="w-12 h-12 rounded-lg bg-[#F2F4F3] text-[#101B2A] flex items-center justify-center mb-6">
+<svg class="w-6 h-6" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.75" viewbox="0 0 24 24">
+<path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"></path>
+<circle cx="9" cy="7" r="4"></circle>
+<path d="M23 21v-2a4 4 0 0 0-3-3.87"></path>
+<path d="M16 3.13a4 4 0 0 1 0 7.75"></path>
+</svg>
+</div>
+<h3 class="font-headline-sm text-headline-sm text-[#101B2A] mb-3">Technical Leadership</h3>
+<p class="font-body-md text-body-md text-[#344054] leading-relaxed">
+            Supporting engineering teams through architecture reviews, technical decisions, mentoring, and collaborative problem solving.
+          </p>
+</div>
+</div>
+<!-- Technical Stack Strip -->
+<div class="bg-white p-6 rounded-xl border border-[#101B2A]/08 flex flex-col md:flex-row md:items-center justify-between gap-4">
+<span class="font-label-sm text-label-sm uppercase tracking-wider text-secondary font-semibold">Specialized Tooling &amp; Paradigms</span>
+<div class="flex flex-wrap items-center gap-2">
+<span class="px-3.5 py-1.5 rounded-full text-xs font-label-md text-[#101B2A] bg-[#F2F4F3] border border-[#101B2A]/10">Java</span>
+<span class="px-3.5 py-1.5 rounded-full text-xs font-label-md text-[#101B2A] bg-[#F2F4F3] border border-[#101B2A]/10">Spring Boot</span>
+<span class="px-3.5 py-1.5 rounded-full text-xs font-label-md text-[#101B2A] bg-[#F2F4F3] border border-[#101B2A]/10">AWS</span>
+<span class="px-3.5 py-1.5 rounded-full text-xs font-label-md text-[#101B2A] bg-[#F2F4F3] border border-[#101B2A]/10">Microservices</span>
+<span class="px-3.5 py-1.5 rounded-full text-xs font-label-md text-[#101B2A] bg-[#F2F4F3] border border-[#101B2A]/10">Distributed Systems</span>
+<span class="px-3.5 py-1.5 rounded-full text-xs font-label-md text-[#101B2A] bg-[#F2F4F3] border border-[#101B2A]/10">APIs</span>
+<span class="px-3.5 py-1.5 rounded-full text-xs font-label-md text-[#0F766E] bg-[#B9E7D5]/20 border border-[#0F766E]/20">AI Assisted Engineering</span>
+</div>
+</div>
+</div>
+</section>
+<!-- SELECTED WORK AND INVOLVEMENT -->
+<section class="w-full py-20 bg-white border-t border-[#101B2A]/10" id="work">
+<div class="max-w-6xl mx-auto px-margin md:px-margin-md lg:px-gutter-lg">
+<div class="mb-12">
+<div class="flex items-center gap-2 mb-3">
+<span class="w-2 h-2 rounded-full bg-[#0F766E]"></span>
+<span class="font-label-sm text-label-sm uppercase tracking-widest text-secondary">Initiatives &amp; Practice</span>
+</div>
+<h2 class="font-headline-lg text-headline-md sm:text-headline-lg text-[#101B2A] tracking-tight mb-3">
+          Beyond the architecture diagrams.
+        </h2>
+<p class="font-body-lg text-body-lg text-[#344054] max-w-2xl">
+          Active platforms, frameworks, and engineering initiatives.
+        </p>
+</div>
+<div class="grid grid-cols-1 lg:grid-cols-3 gap-6">
+<!-- 1. Devify LLC -->
+<div class="bg-surface p-8 rounded-xl border border-[#101B2A]/10 flex flex-col justify-between hover:border-[#101B2A]/30 transition-all shadow-sm">
+<div>
+<div class="flex items-center justify-between mb-6">
+<span class="font-headline-sm text-headline-sm text-[#101B2A]">Devify LLC</span>
+<span class="px-2.5 py-1 rounded bg-white text-[#101B2A] border border-[#101B2A]/10 font-label-sm text-xs">
+                Founder
+              </span>
+</div>
+<p class="font-body-md text-body-md text-[#344054] leading-relaxed mb-8">
+              Devify is my software engineering initiative focused on helping organizations navigate technology modernization, cloud adoption, software architecture, and AI enabled solutions.
+            </p>
+</div>
+<a class="font-label-md text-label-md text-[#101B2A] hover:text-[#0F766E] font-medium inline-flex items-center gap-1.5 transition-colors group" href="https://www.devifyllc.com/" rel="noopener noreferrer" target="_blank">
+<span>Visit Devify</span>
+<span class="material-symbols-outlined text-[16px] transition-transform group-hover:translate-x-0.5 group-hover:-translate-y-0.5">north_east</span>
+</a>
+</div>
+<!-- 2. Stitchfy -->
+<div class="bg-surface p-8 rounded-xl border border-[#101B2A]/10 flex flex-col justify-between hover:border-[#101B2A]/30 transition-all shadow-sm">
+<div>
+<div class="flex items-center justify-between mb-6">
+<span class="font-headline-sm text-headline-sm text-[#101B2A]">Stitchfy</span>
+<span class="px-2.5 py-1 rounded bg-[#B9E7D5]/30 text-[#0F766E] border border-[#0F766E]/20 font-label-sm text-xs">
+                Creator &amp; Maintainer
+              </span>
+</div>
+<p class="font-body-md text-body-md text-[#344054] leading-relaxed mb-8">
+              An open source framework exploring structured software solution design, architecture blueprints, and AI assisted engineering workflows.
+            </p>
+</div>
+<a class="font-label-md text-label-md text-[#101B2A] hover:text-[#0F766E] font-medium inline-flex items-center gap-1.5 transition-colors group" href="https://github.com/devifyllc/stitchfy/" rel="noopener noreferrer" target="_blank">
+<span>Explore on GitHub</span>
+<span class="material-symbols-outlined text-[16px] transition-transform group-hover:translate-x-0.5 group-hover:-translate-y-0.5">north_east</span>
+</a>
+</div>
+<!-- 3. LatAI -->
+<div class="bg-surface p-8 rounded-xl border border-[#101B2A]/10 flex flex-col justify-between hover:border-[#101B2A]/30 transition-all shadow-sm">
+<div>
+<div class="flex items-center justify-between mb-6">
+<span class="font-headline-sm text-headline-sm text-[#101B2A]">LatAI</span>
+<span class="px-2.5 py-1 rounded bg-white text-[#101B2A] border border-[#101B2A]/10 font-label-sm text-xs">
+                Steering Committee
+              </span>
+</div>
+<p class="font-body-md text-body-md text-[#344054] leading-relaxed mb-8">
+              Contributing to a community that brings people together around artificial intelligence, technical learning, collaboration, and knowledge sharing.
+            </p>
+</div>
+<a class="font-label-md text-label-md text-[#101B2A] hover:text-[#0F766E] font-medium inline-flex items-center gap-1.5 transition-colors group" href="https://latai.org/members/" rel="noopener noreferrer" target="_blank">
+<span>Explore the community</span>
+<span class="material-symbols-outlined text-[16px] transition-transform group-hover:translate-x-0.5 group-hover:-translate-y-0.5">north_east</span>
+</a>
+</div>
+</div>
+</div>
+</section>
+<!-- MENTORING AND CONVERSATIONS -->
+<section class="w-full py-12" id="mentoring">
+<div class="max-w-6xl mx-auto px-margin md:px-margin-md lg:px-gutter-lg">
+<div class="bg-[#17283A] text-white rounded-2xl p-8 sm:p-12 lg:p-14 shadow-lg relative overflow-hidden">
+<div class="relative z-10 max-w-2xl">
+<div class="inline-flex items-center gap-2 mb-4 px-3 py-1 rounded-full bg-white/10 text-slate-200 border border-white/15">
+<span class="w-1.5 h-1.5 rounded-full bg-[#80d5cb]"></span>
+<span class="font-label-sm text-label-sm uppercase tracking-widest text-[#9cf2e8]">Dialogue &amp; Guidance</span>
+</div>
+<h2 class="font-headline-lg text-headline-md sm:text-headline-lg text-white tracking-tight mb-4">
+            Good engineering starts with a conversation.
+          </h2>
+<p class="font-body-lg text-body-lg text-slate-300 leading-relaxed mb-8">
+            I enjoy exchanging ideas with engineers, technical leaders, and people navigating complex technology decisions. Whether you're exploring AI, rethinking an existing system, or looking for a different perspective on software engineering, I'm always interested in a thoughtful technical conversation.
+          </p>
+<div class="flex flex-wrap items-center gap-2.5 mb-8">
+<div class="px-3.5 py-1.5 rounded bg-white/5 border border-white/10 text-xs font-label-md text-slate-200">
+              AI in Software Engineering
+            </div>
+<div class="px-3.5 py-1.5 rounded bg-white/5 border border-white/10 text-xs font-label-md text-slate-200">
+              Architecture and Modernization
+            </div>
+<div class="px-3.5 py-1.5 rounded bg-white/5 border border-white/10 text-xs font-label-md text-slate-200">
+              Engineering Growth and Mentoring
+            </div>
+</div>
+<a class="bg-[#B9E7D5] text-[#101B2A] hover:bg-emerald-300 font-label-md text-label-md font-semibold px-6 py-3.5 rounded inline-flex items-center gap-2 transition-all shadow-sm" href="https://www.linkedin.com/in/felipecardozo/" rel="noopener noreferrer" target="_blank">
+<span>Let's connect</span>
+<span class="material-symbols-outlined text-[18px]">north_east</span>
+</a>
+</div>
+</div>
+</div>
+</section>
+<!-- CONNECT SECTION -->
+<section class="w-full py-20 bg-white border-t border-[#101B2A]/10" id="connect">
+<div class="max-w-6xl mx-auto px-margin md:px-margin-md lg:px-gutter-lg">
+<div class="mb-10">
+<h2 class="font-headline-lg text-headline-md sm:text-headline-lg text-[#101B2A] tracking-tight mb-3">
+          Let's stay connected.
+        </h2>
+<p class="font-body-md text-body-md text-[#344054] max-w-2xl">
+          Interested in exchanging ideas, discussing architecture, or exploring opportunities to collaborate? You can find me through the links below.
+        </p>
+</div>
+<!-- Clean 4-Col Grid of Links -->
+<div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4">
+<!-- 1. LinkedIn -->
+<a class="p-5 rounded-xl border border-[#101B2A]/10 hover:border-[#0F766E]/50 bg-surface flex items-center justify-between group transition-all" href="https://www.linkedin.com/in/felipecardozo/" rel="noopener noreferrer" target="_blank">
+<div class="flex items-center gap-3">
+<div class="w-9 h-9 rounded bg-white flex items-center justify-center border border-[#101B2A]/10 text-[#101B2A]">
+<span class="material-symbols-outlined text-[20px]">person_pin</span>
+</div>
+<div>
+<span class="block font-title-md text-sm text-[#101B2A]">LinkedIn</span>
+<span class="block font-label-sm text-xs text-secondary">Professional Network</span>
+</div>
+</div>
+<span class="material-symbols-outlined text-secondary group-hover:text-[#0F766E] text-[18px] transition-transform group-hover:translate-x-0.5 group-hover:-translate-y-0.5">north_east</span>
+</a>
+<!-- 2. GitHub: Stitchfy -->
+<a class="p-5 rounded-xl border border-[#101B2A]/10 hover:border-[#0F766E]/50 bg-surface flex items-center justify-between group transition-all" href="https://github.com/devifyllc/stitchfy/" rel="noopener noreferrer" target="_blank">
+<div class="flex items-center gap-3">
+<div class="w-9 h-9 rounded bg-white flex items-center justify-center border border-[#101B2A]/10 text-[#101B2A]">
+<span class="material-symbols-outlined text-[20px]">code</span>
+</div>
+<div>
+<span class="block font-title-md text-sm text-[#101B2A]">Stitchfy</span>
+<span class="block font-label-sm text-xs text-secondary">GitHub Repository</span>
+</div>
+</div>
+<span class="material-symbols-outlined text-secondary group-hover:text-[#0F766E] text-[18px] transition-transform group-hover:translate-x-0.5 group-hover:-translate-y-0.5">north_east</span>
+</a>
+<!-- 3. Devify LLC -->
+<a class="p-5 rounded-xl border border-[#101B2A]/10 hover:border-[#0F766E]/50 bg-surface flex items-center justify-between group transition-all" href="https://www.devifyllc.com/" rel="noopener noreferrer" target="_blank">
+<div class="flex items-center gap-3">
+<div class="w-9 h-9 rounded bg-white flex items-center justify-center border border-[#101B2A]/10 text-[#101B2A]">
+<span class="material-symbols-outlined text-[20px]">business</span>
+</div>
+<div>
+<span class="block font-title-md text-sm text-[#101B2A]">Devify LLC</span>
+<span class="block font-label-sm text-xs text-secondary">Official Website</span>
+</div>
+</div>
+<span class="material-symbols-outlined text-secondary group-hover:text-[#0F766E] text-[18px] transition-transform group-hover:translate-x-0.5 group-hover:-translate-y-0.5">north_east</span>
+</a>
+<!-- 4. Download CV -->
+<a class="p-5 rounded-xl border border-[#101B2A]/10 hover:border-[#0F766E]/50 bg-surface flex items-center justify-between group transition-all" download="" href="/assets/CV FelipeCardozo EN compact.pdf">
+<div class="flex items-center gap-3">
+<div class="w-9 h-9 rounded bg-white flex items-center justify-center border border-[#101B2A]/10 text-[#101B2A]">
+<span class="material-symbols-outlined text-[20px]">description</span>
+</div>
+<div>
+<span class="block font-title-md text-sm text-[#101B2A]">Download CV</span>
+<span class="block font-label-sm text-xs text-secondary">PDF Document</span>
+</div>
+</div>
+<span class="material-symbols-outlined text-secondary group-hover:text-[#0F766E] text-[18px] transition-transform group-hover:translate-y-0.5">download</span>
+</a>
+</div>
+</div>
+</section>
+</div></main><footer class="w-full bg-surface-container-lowest border-t border-[#101b2a]/[0.08] mt-space-xl"><div class="max-w-6xl mx-auto px-margin md:px-margin-md lg:px-gutter-lg py-space-xl flex flex-col sm:flex-row items-center justify-between gap-space-md"><div class="flex flex-col sm:flex-row items-center gap-space-xs sm:gap-space-sm text-center sm:text-left"><p class="font-body-sm text-body-sm text-on-surface-variant">© 2026 Felipe Cardozo. Designed with intention.</p></div><div class="flex items-center gap-space-md"><a class="inline-flex items-center gap-space-xs font-label-md text-label-md text-on-surface-variant hover:text-on-surface transition-colors duration-150 group" href="#"><span class="material-symbols-outlined text-[16px] transition-transform duration-200 group-hover:-translate-y-0.5">arrow_upward</span><span>Back to top</span></a></div></div></footer></body></html>
